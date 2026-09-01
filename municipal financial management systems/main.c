@@ -10,16 +10,16 @@ int main() {
 
     
     printf("Enter Municipality Name: ");
-    fgets(municipality, sizeof(municipality), stdin);
+    scanf("%49s", &municipality);
 
     printf("Enter Mayor: ");
-    fgets(mayor, sizeof(mayor), stdin);
+    scanf("%49s", &mayor);
 
     printf("Enter Population: ");
     scanf("%d", &population);
 
     
-    printf("\n---------------------------------\n");
+    printf("Municipal Financial Management System\n");
     printf("Municipality: %s", municipality);
     printf("Mayor: %s", mayor);
     printf("Population: %d\n", population);
